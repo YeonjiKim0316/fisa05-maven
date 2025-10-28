@@ -20,9 +20,9 @@ public class DBUtil {
     // Connection conn = DBUtil.getConnection()
     public static Connection getConnection() throws SQLException {
         // 2. DB접속을 위한 객체를 만들어서 url, id, pw를 넘겨줍니다.
-        String url = "jdbc:mysql://118.67.131.22:3306/fisa";
-        String id = "fisaai";
-        String pw = "Woorifisa5!";
+        String url = "jdbc:mysql://DB주소/fisa";
+        String id = "아이디";
+        String pw = "비번";
         return DriverManager.getConnection(url, id, pw);
     }
 
